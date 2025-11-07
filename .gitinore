@@ -1,0 +1,14 @@
+# Python folder
+venv/
+__pycache__/
+*.pyc
+
+# Data (KHÔNG đẩy database lên GitHub)
+data/AdventureWorks-Sales.sqlite3
+data/*.xlsx
+
+# Model (KHÔNG đẩy tệp mô hình đã huấn luyện)
+models/
+
+# System files
+.DS_Store
