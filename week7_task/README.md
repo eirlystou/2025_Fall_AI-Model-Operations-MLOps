@@ -43,29 +43,54 @@
 ├── import_excel_to_db.py              # (2) DB 임포트 스크립트
 ├── requirements.txt                   # 필요한 라이브러리
 └── README.md                          # 현재 파일
-⚙️ 설치 및 실행 방법
-1️⃣ 환경 설정  
-프로젝트 폴더로 이동합니다.  
-(선택 사항) 가상 환경을 생성하고 활성화합니다:  
-python -m venv venv  
-.\venv\Scripts\activate  
-필요한 라이브러리를 설치합니다:  
-pip install -r requirements.txt  
-💡 만약 requirements.txt 파일이 없다면 아래 명령어 실행:  
-pip install pandas scikit-learn xgboost fastapi uvicorn[standard] joblib openpyxl streamlit requests plotly  
-2️⃣ 데이터베이스 생성  
-원본 Excel 파일(AdventureWorks-Sales.xlsx)을 /data/ 폴더에 넣고 아래 실행:  
-python import_excel_to_db.py  
-✅ 성공 시 /data/AdventureWorks-Sales.sqlite3 파일이 생성됩니다.  
-3️⃣ 머신러닝 모델 학습  
-python train.py  
-✅ 성공 시 /models/ 폴더에 model.joblib 및 preprocessor.joblib 생성  
-4️⃣ 애플리케이션 실행 (2개의 터미널 필요)  
-🟢 터미널 1: FastAPI 백엔드 실행  
-uvicorn main:app --reload  
-API: http://127.0.0.1:8000  
-API 문서: http://127.0.0.1:8000/docs  
-🔵 터미널 2: Streamlit 프론트엔드 실행  
-streamlit run app.py  
-Streamlit 대시보드: http://127.0.0.1:8501 (또는 다른 포트)  
-이제 브라우저에서 Streamlit 대시보드를 통해 **판매 분석 및 예측 기능**을 실시간으로 확인할 수 있습니다 🎯
+## ⚙️ 설치 및 실행 방법
+
+### 1️⃣ 환경 설정
+프로젝트 폴더로 이동합니다.
+(선택 사항) 가상 환경을 생성하고 활성화합니다:
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
+필요한 라이브러리를 설치합니다:
+```bash
+pip install -r requirements.txt
+```
+💡 만약 requirements.txt 파일이 없다면 아래 명령어 실행:
+```bash
+pip install pandas scikit-learn xgboost fastapi uvicorn[standard] joblib openpyxl streamlit requests plotly
+```
+
+### 2️⃣ 데이터베이스 생성
+원본 Excel 파일(AdventureWorks-Sales.xlsx)을 /data/ 폴더에 넣고 아래 실행:
+```bash
+python import_excel_to_db.py
+```
+✅ 성공 시 /data/AdventureWorks-Sales.sqlite3 파일이 생성됩니다.
+
+### 3️⃣ 머신러닝 모델 학습
+```bash
+python train.py
+```
+✅ 성공 시 /models/ 폴더에 model.joblib 및 preprocessor.joblib 생성
+
+### 4️⃣ 애플리케이션 실행 (2개의 터미널 필요)
+
+🟢 터미널 1: FastAPI 백엔드 실행
+
+```bash
+uvicorn main:app --reload
+```
+
+API: http://127.0.0.1:8000
+
+API 문서: http://127.0.0.1:8000/docs
+
+🔵 터미널 2: Streamlit 프론트엔드 실행
+
+```bash
+streamlit run app.py
+```
+
+Streamlit 대시보드: http://127.0.0.1:8501
+ (또는 다른 포트)
