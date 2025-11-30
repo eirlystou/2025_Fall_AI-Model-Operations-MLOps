@@ -18,16 +18,17 @@ FastAPI + SQLite + Streamlit 기반의 도서 대여·반납 관리 시스템입
 ## 📁 프로젝트 구조
 ```
 library_project/
-|
-+-- backend/
-|   +-- database.py    # DB 연결 및 세션 관리
-|   +-- models.py      # Book & Loan ORM 모델
-|   +-- schemas.py     # Pydantic 데이터 스키마
-|   +-- main.py        # FastAPI API 엔드포인트
-|   +-- library.db     # SQLite DB 파일
-|
-+-- frontend/
-    +-- app.py         # Streamlit UI
+│
+├── backend/
+│   ├── database.py   # DB 연결 및 세션 관리
+│   ├── models.py     # Book & Loan ORM 모델
+│   ├── schemas.py    # Pydantic 데이터 스키마
+│   ├── main.py       # FastAPI API 엔드포인트
+│   └── library.db    # SQLite DB 파일
+│
+└── frontend/
+    └── app.py        # Streamlit UI
+
 ```
 
 
