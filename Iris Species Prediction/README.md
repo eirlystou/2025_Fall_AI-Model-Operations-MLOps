@@ -10,7 +10,8 @@ This project predicts Iris flower species using a trained ML model. Backend uses
 - pickle model storage (.pkl)
 
 ## Project Structure
-/Iris Species Prediction
+Iris Species Prediction
+
 ├─ api.py (FastAPI Backend)  
 ├─ app_gradio.py (Gradio Frontend)  
 ├─ train_model.py (train + save iris_model.pkl)  
