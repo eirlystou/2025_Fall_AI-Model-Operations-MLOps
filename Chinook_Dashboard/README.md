@@ -63,18 +63,21 @@ Chinook 음악 대시보드는 **FastAPI**를 사용한 백엔드와 **Streamlit
 3. **각 플레이리스트의 트랙 수**: 각 플레이리스트에 포함된 트랙의 개수를 표시합니다.
 4. **트랙 수 기준 상위 아티스트**: 트랙 수에 기반하여 상위 아티스트 목록을 표시합니다.
 
-## 🛠 프로젝트 구조
-
-'''Chinook_Dashboard/
+## 📁 프로젝트 구조
+```
+Chinook_Dashboard/
+│
 ├── backend/
-│ ├── main.py # FastAPI 애플리케이션
-│ ├── database.py # 데이터베이스 쿼리
-│ ├── requirements.txt # 백엔드 의존성 목록
-│ └── Chinook_Sqlite.sqlite # SQLite 데이터베이스
-├── frontend/
-│ ├── app.py # Streamlit 애플리케이션
+│   ├── database.py   # DB 연결
+│   ├── schemas.py    # Pydantic 데이터 스키마
+│   ├── main.py       # FastAPI API 엔드포인트
+│   └── Chinook_Sqlite.sqlite #Database
+│
+└── frontend/
+    └── app.py        # Streamlit UI
 
-'''
+```
+
 
 ## 🧑‍💻 사용 방법
 
