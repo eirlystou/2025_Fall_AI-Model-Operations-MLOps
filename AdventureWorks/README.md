@@ -27,7 +27,7 @@
 | 시각화 | Plotly |
 ## 📁 프로젝트 구조 및 실행 방법
 ```plaintext
-/Your_Project_Folder/
+/AdventureWorks/
 │
 ├── /data/
 │   ├── AdventureWorks-Sales.xlsx      # (1) 원본 Excel 데이터 파일
@@ -94,3 +94,4 @@ streamlit run app.py
 
 Streamlit 대시보드: http://127.0.0.1:8501
  (또는 다른 포트)
+
