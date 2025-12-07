@@ -49,14 +49,13 @@ streamlit run frontend/app.py
 ```
 
 
-<img width="1823" height="534" alt="image" src="https://github.com/user-attachments/assets/c8e8914c-2f6e-43d9-bde3-71b30be81ea2" />
+<img src="https://github.com/user-attachments/assets/c8e8914c-2f6e-43d9-bde3-71b30be81ea2" width="100%">
 
-<img width="1806" height="517" alt="image" src="https://github.com/user-attachments/assets/c92423d8-a73d-482e-b130-9382f65ce318" />
+<img src="https://github.com/user-attachments/assets/c92423d8-a73d-482e-b130-9382f65ce318" width="100%">
 
-<img width="1820" height="490" alt="image" src="https://github.com/user-attachments/assets/bd69fb64-3796-4eeb-80de-71d501079804" />
+<img src="https://github.com/user-attachments/assets/bd69fb64-3796-4eeb-80de-71d501079804" width="100%">
 
-<img width="1836" height="745" alt="image" src="https://github.com/user-attachments/assets/6b849d97-c129-4b08-82b4-c16e9efe930a" />
-
+<img src="https://github.com/user-attachments/assets/6b849d97-c129-4b08-82b4-c16e9efe930a" width="100%">
 
 
 
