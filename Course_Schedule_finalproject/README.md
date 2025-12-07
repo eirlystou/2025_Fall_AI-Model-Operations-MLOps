@@ -23,13 +23,13 @@ uvicorn backend.main:app --reload
 ```
 
 ### 4️⃣ 프론트엔드(Streamlit) 실행
-````bash
+```bash
 streamlit run frontend/app.py
 ```
 
 ---
 
-# 📥 사용 방법 요약
+### 📥 사용 방법 요약
 - CSV 파일 업로드  
 - “Generate Schedule” 버튼 클릭 → 자동 시간표 생성  
 - 학년 / 반(Section) / 학과(Department) 필터링 지원  
