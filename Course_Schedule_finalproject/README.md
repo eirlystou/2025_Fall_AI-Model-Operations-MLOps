@@ -46,7 +46,6 @@ streamlit run frontend/app.py
 ### 예시 요청
 - “텍스트&영상처리 강의를 수요일 오전으로 옮겨줘.”  
 - “수강 인원이 많은 과목은 큰 강의실로 배정해줘.”  
-```
 
 
 <img src="https://github.com/user-attachments/assets/c8e8914c-2f6e-43d9-bde3-71b30be81ea2" width="100%">
