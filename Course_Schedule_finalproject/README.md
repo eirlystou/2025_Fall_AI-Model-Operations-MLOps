@@ -1,6 +1,7 @@
 BEGIN_README
 
 # 📘 강의 자동 시간표 생성 프로젝트
+RULE관련된 거 project_rules.pdf 파일에서 확인 가능
 
 ## 🚀 프로젝트 실행 방법
 
