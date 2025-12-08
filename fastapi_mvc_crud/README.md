@@ -1,4 +1,4 @@
-# 📘 FastAPI MVC CRUD 프로젝트 (No ORM)
+# 📘 FastAPI MVC CRUD 프로젝트 (No ORM) (week10_Chauvrusa_05)
 
 이 프로젝트는 **FastAPI**를 기반으로 **MVC(Model – Service – Router)** 패턴을 적용하여 구현한 RESTful API입니다.  
 ORM(SQLAlchemy)을 사용하지 않고, **SQLite + 순수 SQL**과 **Pandas PSV 로딩**을 활용하여 CRUD 기능을 직접 구현합니다.
@@ -91,24 +91,22 @@ FastAPI 서버 실행 후 아래 주소로 접속:
 }
 ```
 ---
-##📌 참고사항
+## 📌 참고사항
 
 app.db 파일은 서버 실행 시 자동 생성됩니다.
 
 데이터베이스 구조를 변경한 경우, app.db를 삭제 후 재실행해야 합니다.
 
-모든 CRUD는 SQL로 직접 구현되어 있으며 ORM은 사용하지 않습니다.
+모든 CRUD는 SQL로 직접 구현되며 ORM은 사용하지 않습니다.
 
-🏁 요약
+---
+
+## 🧩 요약
 
 이 프로젝트는 FastAPI의 핵심 개념들을 연습하는 데 초점을 맞춥니다:
 
-모듈화 구조 설계
-
-Dependency Injection
-
-Pydantic 데이터 모델링
-
-RESTful API 구축
-
-순수 SQL 기반 CRUD 구현
+- 모듈화 구조 설계  
+- Dependency Injection  
+- Pydantic 데이터 모델링  
+- RESTful API 구축  
+- 순수 SQL 기반 CRUD 구현  
